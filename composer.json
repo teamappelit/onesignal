@@ -27,7 +27,6 @@
     ],
     "require": {
         "php": "^8.0.2|^8.1",
-        "berkayk/onesignal-laravel": "^1.0.10",
         "illuminate/notifications": "^9.0|^10.0.3",
         "illuminate/support": "^9.0|^10.0.3"
     },
