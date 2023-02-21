@@ -3,6 +3,12 @@
     "description": "OneSignal Notifications driver",
     "homepage": "https://github.com/laravel-notification-channels/onesignal",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/teamappelit/laravel-onesignal.git"
+        }
+    ],
     "authors": [
         {
             "name": "Marcel Pociot",
@@ -28,7 +34,8 @@
     "require": {
         "php": "^8.0.2|^8.1",
         "illuminate/notifications": "^9.0|^10.0.3",
-        "illuminate/support": "^9.0|^10.0.3"
+        "illuminate/support": "^9.0|^10.0.3",
+        "berkayk/onesignal-laravel": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "^1.3",
